@@ -1,5 +1,5 @@
 //
-//  NSObject+DebugKit.h
+//  HexDump.h
 //  DebugKit
 //
 //  Created by Chad Gibbons on 6/26/12.
@@ -20,6 +20,17 @@
 
 #import <Foundation/Foundation.h>
 
-#import "HexDump.h"
-#import "NSData+HexDump.h"
-#import "NSString+HexDump.h"
+//
+// Dump a binary data buffer as a display of hexadecimal values and their
+// ASCII-visible counterparts.
+//
+//   Parameters:
+//     buffer - a pointer to the data buffer to dump
+//     length - the length of the data buffer to display, in bytes
+//
+//   Return Value:
+//     A NSString object containing the formatted hex dump. There are 16 bytes
+//     displayed per line, separated into hexadecimal and printable character
+//     values.
+//
+extern NSString *hexDump(const void *buffer, const NSUInteger length);

@@ -1,5 +1,5 @@
 //
-//  NSObject+DebugKit.h
+//  NSData+HexDump.m
 //  DebugKit
 //
 //  Created by Chad Gibbons on 6/26/12.
@@ -18,8 +18,14 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-
-#import "HexDump.h"
 #import "NSData+HexDump.h"
-#import "NSString+HexDump.h"
+#import "HexDump.h"
+
+@implementation NSData (HexDump)
+
+-(NSString *)hexDump
+{
+    return hexDump([self bytes], [self length]);
+}
+
+@end

@@ -1,5 +1,5 @@
 //
-//  NSObject+DebugKit.h
+//  NSData+HexDump.h
 //  DebugKit
 //
 //  Created by Chad Gibbons on 6/26/12.
@@ -20,6 +20,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "HexDump.h"
-#import "NSData+HexDump.h"
-#import "NSString+HexDump.h"
+@interface NSData (HexDump)
+
+-(NSString *)hexDump;
+
+@end
