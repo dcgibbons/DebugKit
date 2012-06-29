@@ -54,6 +54,9 @@
     NSLog(@"Unicode dump!!!\n%@\n", [t hexDump:NSUnicodeStringEncoding]);
     NSLog(@"UTF8 dump!!!\n%@\n", [t hexDump:NSUTF8StringEncoding]);
     NSLog(@"ASCII dump!!!\n%@\n", [t hexDump:NSASCIIStringEncoding]);
+    
+    NSString *u = @"How now, brown cow.";
+    NSLog(@"Dump:\n%@\n", [u hexDump:NSUnicodeStringEncoding]);
 }
 
 -(void)testNonPrintables

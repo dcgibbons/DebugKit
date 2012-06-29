@@ -54,5 +54,12 @@ Using the `NSString+HexDump` category:
 
 ```objc
 NSString *str = @"How now, brown cow.";
-NSLog(@"Dump:\n%@\n", [str hexDump:NSUnicodeStringEncoding
+NSLog(@"Dump:\n%@\n", [str hexDump:NSUnicodeStringEncoding]);
 ```
+
+...
+
+    2012-06-28 21:46:04.557 otest[81123:403] Dump:
+    0000 48 00 6f 00 77 00 20 00 6e 00 6f 00 77 00 2c 00 H.o.w. .n.o.w.,.
+    0010 20 00 62 00 72 00 6f 00 77 00 6e 00 20 00 63 00  .b.r.o.w.n. .c.
+    0020 6f 00 77 00 2e 00                               o.w... 
