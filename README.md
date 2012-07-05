@@ -31,11 +31,10 @@ For iOS projects:
 * Drag the DebugKit.xcodeproj file to your project (or use the Add Files to... option in the File menu).
 * Go to your Target definition in your project
   * Go to Build Settings
-    * Set the User Header Search Path to `${BUILT_PRODUCTS_DIR}`
+    * Set the User Header Search Path to `${BUILT_PRODUCTS_DIR}/usr/local/include`
   * Go to Build Phases
     * In Target Dependencies, add `DebugKitLibrary`
     * In Link Binary with Libraries, add `libDebugKitLibrary.a`
-  
 
 
 Code Usage
