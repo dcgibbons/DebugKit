@@ -22,8 +22,24 @@ Chad Gibbons
  June, 2012
 
 
-Usage
------
+Build Usage
+-----------
+
+For iOS projects:
+
+* Check out the DebugKit project to a location of your choice.
+* Drag the DebugKit.xcodeproj file to your project (or use the Add Files to... option in the File menu).
+* Go to your Target definition in your project
+  * Go to Build Settings
+    * Set the User Header Search Path to `${BUILT_PRODUCTS_DIR}`
+  * Go to Build Phases
+    * In Target Dependencies, add `DebugKitLibrary`
+    * In Link Binary with Libraries, add `libDebugKitLibrary.a`
+  
+
+
+Code Usage
+----------
 
 Using `hexDump` directly to display an array of bytes:
 

@@ -14,25 +14,25 @@
 		C286482F159AC401006B31D4 /* DebugKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2864811159AC401006B31D4 /* DebugKitFramework.framework */; };
 		C2864835159AC401006B31D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2864833159AC401006B31D4 /* InfoPlist.strings */; };
 		C2864838159AC401006B31D4 /* DebugKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2864837159AC401006B31D4 /* DebugKitTests.m */; };
-		C286484A159AC5EC006B31D4 /* DebugKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2864849159AC5EC006B31D4 /* DebugKit.h */; };
+		C286484A159AC5EC006B31D4 /* DebugKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2864849159AC5EC006B31D4 /* DebugKit.h */; settings = {ATTRIBUTES = (); }; };
 		C2864851159AC657006B31D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2864850159AC657006B31D4 /* Foundation.framework */; };
 		C286485E159AC657006B31D4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C286482A159AC401006B31D4 /* SenTestingKit.framework */; };
 		C2864860159AC657006B31D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C286485F159AC657006B31D4 /* UIKit.framework */; };
 		C2864861159AC657006B31D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2864850159AC657006B31D4 /* Foundation.framework */; };
 		C2864864159AC657006B31D4 /* libDebugKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C286484F159AC657006B31D4 /* libDebugKitLibrary.a */; };
-		C2864877159AC6FB006B31D4 /* DebugKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2864849159AC5EC006B31D4 /* DebugKit.h */; };
+		C2864877159AC6FB006B31D4 /* DebugKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2864849159AC5EC006B31D4 /* DebugKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2864878159AC807006B31D4 /* DebugKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2864837159AC401006B31D4 /* DebugKitTests.m */; };
-		C28648A1159AC982006B31D4 /* DebugKitLibrary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C28648A0159AC982006B31D4 /* DebugKitLibrary-Prefix.pch */; };
-		C28648A7159ACC3E006B31D4 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648A5159ACC3E006B31D4 /* NSData+HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C28648A8159ACC3E006B31D4 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648A5159ACC3E006B31D4 /* NSData+HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C28648A1159AC982006B31D4 /* DebugKitLibrary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C28648A0159AC982006B31D4 /* DebugKitLibrary-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
+		C28648A7159ACC3E006B31D4 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648A5159ACC3E006B31D4 /* NSData+HexDump.h */; settings = {ATTRIBUTES = (); }; };
+		C28648A8159ACC3E006B31D4 /* NSData+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648A5159ACC3E006B31D4 /* NSData+HexDump.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28648A9159ACC3E006B31D4 /* NSData+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648A6159ACC3E006B31D4 /* NSData+HexDump.m */; };
 		C28648AA159ACC3E006B31D4 /* NSData+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648A6159ACC3E006B31D4 /* NSData+HexDump.m */; };
-		C28648AC159AD045006B31D4 /* HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648AB159AD045006B31D4 /* HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C28648AD159AD045006B31D4 /* HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648AB159AD045006B31D4 /* HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C28648AC159AD045006B31D4 /* HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648AB159AD045006B31D4 /* HexDump.h */; settings = {ATTRIBUTES = (); }; };
+		C28648AD159AD045006B31D4 /* HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648AB159AD045006B31D4 /* HexDump.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28648AF159AD08A006B31D4 /* HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648AE159AD08A006B31D4 /* HexDump.m */; };
 		C28648B0159AD08A006B31D4 /* HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648AE159AD08A006B31D4 /* HexDump.m */; };
-		C28648B3159AD2F2006B31D4 /* NSString+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648B1159AD2F2006B31D4 /* NSString+HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C28648B4159AD2F2006B31D4 /* NSString+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648B1159AD2F2006B31D4 /* NSString+HexDump.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C28648B3159AD2F2006B31D4 /* NSString+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648B1159AD2F2006B31D4 /* NSString+HexDump.h */; settings = {ATTRIBUTES = (); }; };
+		C28648B4159AD2F2006B31D4 /* NSString+HexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = C28648B1159AD2F2006B31D4 /* NSString+HexDump.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28648B5159AD2F2006B31D4 /* NSString+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648B2159AD2F2006B31D4 /* NSString+HexDump.m */; };
 		C28648B6159AD2F2006B31D4 /* NSString+HexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C28648B2159AD2F2006B31D4 /* NSString+HexDump.m */; };
 /* End PBXBuildFile section */
@@ -235,10 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2864877159AC6FB006B31D4 /* DebugKit.h in Headers */,
-				C28648A1159AC982006B31D4 /* DebugKitLibrary-Prefix.pch in Headers */,
 				C28648A8159ACC3E006B31D4 /* NSData+HexDump.h in Headers */,
 				C28648AD159AD045006B31D4 /* HexDump.h in Headers */,
 				C28648B4159AD2F2006B31D4 /* NSString+HexDump.h in Headers */,
+				C28648A1159AC982006B31D4 /* DebugKitLibrary-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +477,7 @@
 		C2864839159AC401006B31D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
@@ -497,14 +497,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
 		C286483A159AC401006B31D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
@@ -517,7 +519,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -583,11 +587,8 @@
 				INFOPLIST_FILE = "DebugKit/DebugKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/$(PROJECT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -601,11 +602,8 @@
 				INFOPLIST_FILE = "DebugKit/DebugKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/$(PROJECT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
