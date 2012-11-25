@@ -63,7 +63,7 @@
 		C286481C159AC401006B31D4 /* DebugKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugKit-Info.plist"; sourceTree = "<group>"; };
 		C286481E159AC401006B31D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2864820159AC401006B31D4 /* DebugKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DebugKit-Prefix.pch"; sourceTree = "<group>"; };
-		C2864829159AC401006B31D4 /* DebugKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DebugKitTests.octest; path = DebugKitFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2864829159AC401006B31D4 /* DebugKitFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugKitFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C286482A159AC401006B31D4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C2864832159AC401006B31D4 /* DebugKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugKitTests-Info.plist"; sourceTree = "<group>"; };
 		C2864834159AC401006B31D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				C2864811159AC401006B31D4 /* DebugKitFramework.framework */,
-				C2864829159AC401006B31D4 /* DebugKitTests.octest */,
+				C2864829159AC401006B31D4 /* DebugKitFrameworkTests.octest */,
 				C286484F159AC657006B31D4 /* libDebugKitLibrary.a */,
 				C286485D159AC657006B31D4 /* DebugKitLibraryTests.octest */,
 			);
@@ -279,7 +279,7 @@
 			);
 			name = DebugKitFrameworkTests;
 			productName = DebugKitTests;
-			productReference = C2864829159AC401006B31D4 /* DebugKitTests.octest */;
+			productReference = C2864829159AC401006B31D4 /* DebugKitFrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		C286484E159AC657006B31D4 /* DebugKitLibrary */ = {
@@ -324,7 +324,7 @@
 		C2864807159AC401006B31D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Nuclear Bunny Studios, LLC";
 			};
 			buildConfigurationList = C286480A159AC401006B31D4 /* Build configuration list for PBXProject "DebugKit" */;
@@ -526,6 +526,7 @@
 		C286483C159AC401006B31D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -541,6 +542,7 @@
 		C286483D159AC401006B31D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -556,6 +558,7 @@
 		C286483F159AC401006B31D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DebugKit/DebugKit-Prefix.pch";
@@ -568,6 +571,7 @@
 		C2864840159AC401006B31D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DebugKit/DebugKit-Prefix.pch";
