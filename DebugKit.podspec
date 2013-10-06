@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DebugKit"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "DebugKit is a library containing useful debugging tools that I find myself in need of regardless of what langauge or platform I am using."
 
   s.description  = <<-DESC
