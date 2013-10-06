@@ -31,7 +31,7 @@ NSString *hexDump(const void *buffer, const NSUInteger length)
     for (NSUInteger n = 0; n < length; n += BYTE_COUNT) {
 
         // print the memory offset of the current line
-        [s appendFormat:@"%04lx ", n];
+        [s appendFormat:@"%04lx ", (unsigned long)n];
         
         // print the next BYTE_COUNT bytes in hexadecimal format
         for (i = n; i < n + BYTE_COUNT && i < length; i++) {
